@@ -3,32 +3,53 @@ programa
 	
 	funcao inicio()
 	{
-		real C,N,E
-		escreva ("Total de horas trabalhadas: " )
-		leia(N)
-		se (N>50)
-		{ escreva("As horas de trabalho foram excedidas.")
-          E=(N-50)* 20
-		C= 500 + E
-		escreva( " O salário total é de: " , C)
+	inteiro soma=0, x
+	
 
+	
+		para (x=1;x<=500;x++)
 		
-		escreva(" O valor excedente a ser pago é  : " , E)
+		{   
+		 se (x%2>0)
+
+		 se (x%3==0)
+
+		 se (x<=500)
+
+		 soma = soma + x
+		 
+		 
+		 
+		 escreva("\n O resultado da soma é de:\n " , soma )
+		 
 		}
-
-          senao se(N<=50) { 
-          	escreva("As horas de trabalho não foram excedidas." ) 
-          }
-          
-
+		
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*2- Desenvolver um sistema que efetue a soma de todos os números ímpares que são
+múltiplos de três e que se encontram no conjunto dos números de 1 até 500.
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 323; 
+ * @POSICAO-CURSOR = 109; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -1,6 +1,6 @@
-programa{
+programa{
 	
-	funcao inicio() 
+	funcao inicio() 
 	{
 	
 	inteiro A,B,C,D,R,S
@@ -19,7 +19,8 @@ programa{
 	D= (R + S) / 2
 	escreva (" O resultado de D é: ", D)
 
-
+/*D = R+ S/2 R=( A + B)*2 S=(B+C)*2
+ 
 	
 
 	
@@ -33,7 +34,7 @@ programa{
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 375; 
+ * @POSICAO-CURSOR = 218; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -3,32 +3,46 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro P,E,M
-		escreva(" Insira o peso: " )
-		leia(P)
-		se (P>50)
-		{
-			escreva( "O peso ultrapassa o limite estababelecido pela regulamentação do estado de São Paulo.")
-	
-		E= (P - 50)
-		escreva("Excesso em kg: ", E) 
-		M= (E*4)
-		escreva(" Sua multa é no valor de " , M) 	}
+		inteiro x, y , soma
+		x=233
+		y=456
+		soma= x++
 		
-		senao se (P>=50)
+		
 
-		{
-			escreva (" Não há excesso de peso.")
+		faca { 
+          x++
+			
 		}
+		enquanto 
 		
+
+		
+	
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  1- Faça um programa que mostre uma contagem na tela de 233 a 456, só que
+contando de 3 em 3 quando estiver entre 300 e 400 e de 5 em 5 quando não estiver.
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 379; 
+ * @POSICAO-CURSOR = 151; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
