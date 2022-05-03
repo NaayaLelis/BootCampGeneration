@@ -3,28 +3,28 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro numero, soma, total,media
-		soma=0
-		numero= 0 
-		total=0
-		media=0
-		escreva (" entre um novo numero: ")
+		inteiro numero, soma=0 , contador=0, media
+		
+		escreva (" Insira um número: ")
 		leia(numero)
 
-		enquanto (numero>0) {
-			escreva (" Entre um novo número: ")
+		enquanto (numero>=0) {
+			
+			contador++
+			escreva (" Insira um novo número: ")
 			leia(numero)
 			limpa()
-			soma= numero+numero
-		}
-		se (numero<0)
-		{ 
-		
-		escreva("O valor total da soma é", soma ," O valor da média é de " , media)
-		soma= soma + numero
-		total= total+1
-          media= soma/total 
+			soma = numero+numero 
+			media = soma/contador
 
+
+		escreva("A soma dos números lidos é: ", soma)
+		escreva("\nA média dos números lidos é: ", media)
+		escreva("\nO total de valores lidos é: ", contador)
+			}
+	}	
+               
+               
 		}
 
           
@@ -33,19 +33,19 @@ programa
          
 	
 		
-		
+ 	
 		
 
 		
 		
-	}
-}
+	
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 461; 
+ * @POSICAO-CURSOR = 515; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
