@@ -3,18 +3,20 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro x, y , soma
-		x=233
-		y=456
-		soma= x++
+		inteiro i
 		
-		
-
-		faca { 
-          x++
-			
-		}
-		enquanto 
+		faca
+		{
+			para(i = 233; i <= 456; i+=5){
+				escreva(i, "\n")
+				enquanto(i >= 300 e i <= 400){
+					para(i = i + 3; i <= 400; i+=3){
+						escreva(i, "\n")
+					}
+					escreva(i, "\n")
+				}
+			}
+		}enquanto(i<=456)
 		
 
 		
@@ -42,7 +44,7 @@ contando de 3 em 3 quando estiver entre 300 e 400 e de 5 em 5 quando não estive
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 151; 
+ * @POSICAO-CURSOR = 269; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
