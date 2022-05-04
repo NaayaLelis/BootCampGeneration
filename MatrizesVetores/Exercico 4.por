@@ -23,12 +23,13 @@ programa
 			SomaValoresMatriz +=M[linha][coluna]
 			SomaValoresDiagonal = M[0][0] + M[1][1] + M[2][2]
 
-			escreva("\nA soma dos valores é : " , SomaValoresMatriz, ", e a soma das diagonais é: " ,SomaValoresDiagonal )
+			
 
 			
 		}
 		}
-		
+
+			escreva("\nA soma dos valores é : " , SomaValoresMatriz, ", e a soma das diagonais é: " ,SomaValoresDiagonal )
 
 		
 	}
@@ -38,7 +39,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 598; 
+ * @POSICAO-CURSOR = 503; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {M, 11, 10, 1};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
