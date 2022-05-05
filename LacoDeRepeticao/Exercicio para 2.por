@@ -20,12 +20,13 @@ programa
 		 
 		 
 		 
-		 escreva("\n O resultado da soma é de:\n " , soma )
+		
 		 
 		}
-		
+		 escreva("\n O resultado da soma é de:\n " , soma )
 	}
 }
+
 
 
 
@@ -49,7 +50,7 @@ múltiplos de três e que se encontram no conjunto dos números de 1 até 500.
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 51; 
+ * @POSICAO-CURSOR = 239; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
